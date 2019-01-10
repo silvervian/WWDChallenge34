@@ -1,0 +1,39 @@
+.clients {
+  margin: 7rem 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: start;
+
+  &__box {
+    display: flex;
+    flex-direction: column;
+
+    @include media(large) {
+      text-align: center;
+      flex: 1 1 100%;
+    }
+  }
+
+  &__desc {
+    margin-top: 3rem;
+    max-width: 32.5rem;
+    color: #adadad;
+    font-family: Raleway;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+
+    @include media(large) {
+      margin: 3rem auto;
+      text-align: center;
+      flex: 1 1 100%;
+    }
+  }
+
+  &__logo {
+    margin: 2rem;
+    width: 172px;
+    height: 115px;
+  }
+}

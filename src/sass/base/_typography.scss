@@ -26,9 +26,14 @@ body {
 }
 
 .tertiary {
+  text-align: center;
   color: #202242;
   font-family: Raleway;
   font-size: 3.6rem;
   font-weight: 700;
-  line-height: 3.6rem;
+  line-height: 4.6rem;
+
+  &--light {
+    color: #ffffff;
+  }
 }
