@@ -1,0 +1,29 @@
+.nav-header {
+  
+   &__list {
+     width: 50rem;
+     display: flex;
+     list-style: none;
+     justify-content: space-around;
+   }
+
+   &__link {
+
+   }
+
+   &__item {
+    color: #202242;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+    text-transform: uppercase;
+    font-family: "Raleway";
+
+
+    
+    &--active, &:hover {
+      font-weight: 700;
+      color: #ffe13e;
+    }
+   }
+}

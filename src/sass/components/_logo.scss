@@ -1,0 +1,21 @@
+.logo {
+  display: flex;
+  align-items: center;
+  
+  &__img {
+    width: 3.2rem;
+    height: 2.6rem;
+  }
+
+  &__name {
+    color: #202242;
+    font-family: Rockwell;
+    font-size: 3rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+
+    &--bold {
+      font-weight: 700;
+    }
+  }
+}
