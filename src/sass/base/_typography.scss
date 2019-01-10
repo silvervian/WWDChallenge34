@@ -7,3 +7,28 @@ body {
   font-weight: 400;
   color: rgb(0, 0, 0);
 }
+
+.primary {
+  color: #ffffff;
+  font-family: Arvo;
+  font-size: 4.8rem;
+  font-weight: 400;
+  line-height: 5.4rem;
+  text-align: center;
+}
+
+.secondary {
+  color: #202242;
+  font-family: Raleway;
+  font-size: 4.8rem;
+  font-weight: 700;
+  line-height: 2.4rem;
+}
+
+.tertiary {
+  color: #202242;
+  font-family: Raleway;
+  font-size: 3.6rem;
+  font-weight: 700;
+  line-height: 3.6rem;
+}
