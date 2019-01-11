@@ -1,0 +1,25 @@
+.map {
+  position: relative;
+  background: url(../../img/map.png) no-repeat right bottom / cover;
+  width: 820px;
+  height: 409px;
+
+  &__localization {
+    display: flex;
+    position: absolute;
+    bottom: 150px;
+    right: -20px;
+    font-size: 4.5rem;
+    color: #ffe13e;
+  }
+
+  &__destination {
+    display: block;
+    padding-left: 1.5rem;
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 2.4rem;
+  }
+}
