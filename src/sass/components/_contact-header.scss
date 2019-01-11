@@ -5,9 +5,17 @@
     border-left: 1px solid #ebebeb;
     align-items: center;
     padding: 3rem 0 3rem 5rem;
-
+    
     @media (max-width: 80rem) {
       display: none;
+    }
+
+    &--mobile {
+      margin-top: 3rem;
+      width: 31rem;
+      padding: 0;
+      display: flex;
+      border-left: none;
     }
   
   
@@ -55,6 +63,5 @@
       font-weight: 700;
       line-height: 2.4rem;
       border-left: 1px solid rgba(32, 34, 66, .2);
-    
   }
 }

@@ -42,21 +42,23 @@
     height: 12.8rem;
     
     &::after {
+      position: absolute;
       content: '';
+      top: -20px;
       display: block;
       width: 6.9rem;
       height: 3px;
       background: #202242;
-      opacity: 1;;
     }
   }
   
   &__title {
+    text-align: center;
     color: #f4d320;
     font-family: Arvo;
     font-size: 3rem;
     font-weight: 400;
-    line-height: 2.4rem;
+    line-height: 3.4rem;
   }
   
   &__text {

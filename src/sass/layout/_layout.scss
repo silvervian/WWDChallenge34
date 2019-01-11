@@ -4,5 +4,9 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+
+  @include media(medium) {
+    justify-content: space-between;
+  }
 }
 

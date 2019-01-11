@@ -3,6 +3,10 @@
   align-items: center;
   padding: 4rem 0;
 
+  @include media(medium) {
+    margin-left: 2rem;
+  }
+
   &__img {
     width: 3.2rem;
     height: 2.6rem;

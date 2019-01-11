@@ -4,6 +4,10 @@
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: start;
+ 
+  @include media(small) {
+    margin: 7rem 0;
+  }
 
   &__box {
     display: flex;
