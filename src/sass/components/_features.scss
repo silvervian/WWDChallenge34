@@ -40,19 +40,10 @@
   &__img {
     width: 12.8rem;
     height: 12.8rem;
-    
-    &::after {
-      position: absolute;
-      content: '';
-      top: -20px;
-      display: block;
-      width: 6.9rem;
-      height: 3px;
-      background: #202242;
-    }
   }
   
   &__title {
+    position: relative;
     text-align: center;
     color: #f4d320;
     font-family: Arvo;
