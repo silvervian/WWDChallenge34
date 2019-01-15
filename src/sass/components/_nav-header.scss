@@ -26,6 +26,8 @@
    }
 
    &__item {
-
+    display: flex;
+    justify-content: center;
+    width: 9rem;
    }
 }
